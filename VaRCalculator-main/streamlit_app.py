@@ -73,7 +73,7 @@ if 'recent_outputs' not in st.session_state:
 with st.sidebar:
     st.title('📈 VaR Calculator')
     st.write("`Created by:`")
-    linkedin_url = "www.linkedin.com/in/trayna05"
+    linkedin_url = "https://www.linkedin.com/in/trayna05/"
     st.markdown(f'<a href="{linkedin_url}" target="_blank" style="text-decoration: none; color: inherit;"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="25" height="25" style="vertical-align: middle; margin-right: 10px;">`Trayna Bui`</a>', unsafe_allow_html=True)
 
     tickers = st.text_input('Enter tickers separated by space', 'AAPL MSFT GOOG').split()
